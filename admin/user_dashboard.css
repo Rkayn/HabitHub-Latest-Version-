@@ -1,0 +1,73 @@
+a {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+section{
+    padding: 10px;
+    overflow-y: hidden;
+    height:1500px;
+}
+
+.wrapper-content {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    /*overflow-y: auto;*/
+}
+
+.habit {
+    margin-bottom: 20px;
+}
+
+.center {
+    text-align: center;
+
+}
+
+
+.habit-name {
+    font-weight: bold;
+}
+
+.progress {
+    display: flex;
+}
+
+.progress-date {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.completed {
+    background-color: lightgreen;
+}
+
+
+.profile-modal .modal-header {
+    background-color: #007bff;
+    color: white;
+}
+.profile-modal .modal-footer .btn {
+    min-width: 100px;
+}
+
+    .container {
+        margin: 20px auto;
+        max-width: 1200px;
+    }
+    .card {
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .card-body {
+        position: relative;
+        height: 400px;
+    }
+    #calendar {
+        flex-grow: 1;
+    }
+

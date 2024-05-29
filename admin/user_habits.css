@@ -1,0 +1,131 @@
+a {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.wrapper-habits {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    overflow-y: auto;
+}
+
+
+.content-wrapper-dash {
+    display: flex;
+    flex: 1;
+    overflow-y: auto; 
+    background-color: white;
+}
+
+
+.content-habits-list {
+    padding: 20px;    /* Add some padding for aesthetics */
+}
+
+.habit-list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;}
+
+.add-habit-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.habit-group {
+    margin-bottom: 20px;
+}
+
+.habit-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.habit-info {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.habit-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.habit-streak, .habit-frequency {
+    font-size: 14px;
+    color: #777;
+}
+
+.edit-btn{
+    background-color: #f0ad4e;
+}
+
+.edit-btn {
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.delete-btn {
+    background-color: #fd1a1a;
+}
+
+.view-options button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.habit-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.habit {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: calc(33.33% - 20px);
+}
+
+.habit h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.habit-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+.habit-box {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.habit-box.completed {
+    background-color: #4caf50; /* Green */
+}
+
+ion-icon {
+    font-size: 64px;
+  }
